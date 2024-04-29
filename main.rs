@@ -12,7 +12,7 @@ fn main() {
     println!("Second element of the array: {}", xs[1]);
     println!("Number of elements in array: {}", xs.len());
     println!("Array occupies {} bytes", mem::size_of_val(&xs));
-    println!("Borrow the whole array as a slice.");
+    println!("Aboba");
     analyze_slice(&xs);
     println!("Borrow a section of the array as a slice.");
     analyze_slice(&ys[1 .. 4]);
